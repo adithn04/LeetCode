@@ -3,6 +3,7 @@ word1=["ab","c"]
 word2=["a","bc"]
 a=""
 b=""
+
 for i in range(len(word1)):
     a+=word1[i]
 for i in range(len(word2)):
@@ -11,4 +12,3 @@ if a==b:
     print(True)
 else:
     print(False)
-
