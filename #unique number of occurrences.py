@@ -6,7 +6,7 @@ for i in arr:
         new[i] += 1
     else:
         new[i] = 1
-
+print(new)
 uni=set(new.values())
 if len(uni) == len(new):
     print("true")
