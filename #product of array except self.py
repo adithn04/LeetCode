@@ -10,5 +10,4 @@ count=1
 for i in range(len(nums)-1,-1,-1):
     new[i]*=count
     count*=nums[i]
-    
 print(new)
