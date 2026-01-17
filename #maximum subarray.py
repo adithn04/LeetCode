@@ -6,8 +6,8 @@ for i in nums:
     nsum+=i
     if nsum>max_:
         max_=nsum
-        print(max_)
+        # print(max_)
     if nsum<0:
         nsum=0
-        print(nsum)
+        # print(nsum)
 print(max_)
