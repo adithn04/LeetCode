@@ -9,15 +9,15 @@ while j<len(s):
         new[s[j]]=j
         j+=1
         mlen=max(mlen,j-i)
-        print(new)
-        print(mlen)
+        # print(new)
+        # print(mlen)
     else:
         i=max(new[s[j]]+1,i)
         new[s[j]]=j
         j+=1
         mlen=max(mlen,j-i)
-        print("j:", j)
-        print("i:", i)
-        print(new)
-        print("mlen:", mlen)
+        # print("j:", j)
+        # print("i:", i)
+        # print(new)
+        # print("mlen:", mlen)
 print(mlen)
